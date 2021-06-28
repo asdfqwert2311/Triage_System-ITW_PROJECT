@@ -7,7 +7,7 @@ body{
 }
 
 .vertical-nav{
-    background-image : linear-gradient(to right, red , yellow);
+    background-image : linear-gradient(to right, rgb(53, 2, 77) , rgb(86, 0, 112));
     min-width: 17rem;
     height: 100vh;
     position: fixed;
@@ -233,4 +233,8 @@ border-left: 0.25rem solid #f6c23e !important;
 /* grid box style */
 .grid-box{
     border-radius: 1px;
+}
+.card border-left-info shadow h-100 py-2
+{
+    border-radius: 2.13rem;
 }

@@ -3,8 +3,8 @@ import django_filters
 from .models import *
 
 # ModelnameFilter
-class PatientFilter(django_filters.FilterSet):
-    class Meta:
+class PatientFilter(django_filters.FilterSet):          #allows users to filter down a queryset based on a model’s fields, displaying the form to let them do this.
+    class Meta:                                         #meta class is used to specify multiple filters, i.e it will generate exact search for all the given fields
         model = Patient
         # fields = ['name', 'bed_num', 'status']
         fields = '__all__'
